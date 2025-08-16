@@ -1,0 +1,132 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_navigation {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_navigation_title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.header_navigation_links {
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.header_intro {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 70px;
+    padding: 40px 0;
+}
+
+.header_intro_left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header_intro_right {
+    height: 300px;
+    width: auto;
+    flex: 0;
+}
+
+.galleries {
+    display: flex;
+    flex-direction: column;
+}
+
+.galleries_title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: darkblue;
+}
+
+.galleries_pictures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galleries_pictures_combined {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+}
+
+.quote_text {
+    font-weight: 900;
+    margin: 20px;
+}
+
+.quote_author {
+    align-self: flex-end;
+    margin: 20px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action_text {
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: navy;
+    justify-content: center;
+}
+
+.footer_trademark {
+    color: white;
+}
+
+button {
+    background-color: lightblue;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
